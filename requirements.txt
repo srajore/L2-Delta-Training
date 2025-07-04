@@ -1,3 +1,8 @@
 langchain
 gradio
 langchain-ollama
+langchain_core
+langchain_openai
+python-dotenv
+langchain-huggingface
+transformers

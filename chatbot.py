@@ -1,8 +1,14 @@
 from langchain_ollama import ChatOllama
 #from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
+
+
+
+
 import gradio as gr
 #from dotenv import load_dotenv
+
+
 
 #load_dotenv(override=True)
 
@@ -18,7 +24,7 @@ prompt = ChatPromptTemplate.from_messages([
 ])
 
 # Combine the prompt with the LLM
-chain = prompt | llm
+chain = prompt | llm 
 
 # Function to get chatbot response
 def chatbot(user_input, history_state):

@@ -1,10 +1,12 @@
 from langchain_huggingface import ChatHuggingFace,HuggingFaceEndpoint
-
+#from langchain.chains.conversation.memory  import ConversationBufferMemory
 from dotenv import load_dotenv
 
 import os
 
 load_dotenv(override=True)
+
+
 
 
 llm=HuggingFaceEndpoint(
@@ -14,6 +16,10 @@ llm=HuggingFaceEndpoint(
 )
 
 model = ChatHuggingFace(llm=llm)
+
+#memory = ConversationBufferMemory()
+
+#print(memory)
 
 try:
     response = model.invoke("What is the capital of France?")

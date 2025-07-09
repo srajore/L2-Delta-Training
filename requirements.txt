@@ -8,3 +8,4 @@ langchain-huggingface
 transformers
 pypdf
 langchain_community
+bs4

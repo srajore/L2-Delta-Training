@@ -9,3 +9,4 @@ transformers
 pypdf
 langchain_community
 bs4
+chromadb

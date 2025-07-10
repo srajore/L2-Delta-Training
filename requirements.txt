@@ -10,3 +10,4 @@ pypdf
 langchain_community
 bs4
 chromadb
+langchain_chroma

@@ -9,4 +9,4 @@ wheels/
 # Virtual environments
 .venv
 .env
-my_chroma_db
+my_chroma_db/
